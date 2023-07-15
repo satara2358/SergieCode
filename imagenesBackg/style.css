@@ -1,0 +1,8 @@
+body{
+  background: linear-gradient(90deg, #fff 0%, red 20%, blue 100%);
+  background-image: url(/assets/img/museoT.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+}
