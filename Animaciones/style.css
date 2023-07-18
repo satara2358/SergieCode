@@ -1,0 +1,43 @@
+body{
+  background-color: black;
+  color: #fff;
+}
+
+img{
+  position: absolute;
+  top: 0;
+  opacity: 0.6;
+}
+
+.contenedor{
+  overflow: auto;
+}
+
+.leftside{
+  float: none;
+  width: auto;
+}
+
+.texto{
+  position: absolute;
+  top: 0;
+  color: blueviolet;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@media (min-width:480px) {
+  .leftside{
+    float: left;
+    width: 300px;
+  }
+
+  img{
+    width: 300px;
+  }
+  
+  .texto{
+    position: static;
+
+  }
+
+}
