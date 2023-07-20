@@ -1,0 +1,39 @@
+.flex-contrainer{
+  display: flex;
+  background-color: cadetblue;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* row reverse  => column  ==> */
+
+.flex-contrainer > div {
+  background-color: brown;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5em;
+  width: 50px;
+}
+
+/*------------------------*/
+
+.flex-contraine{
+  display: flex;
+  background-color: cadetblue;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; /* space-between*/
+  height: 500px;
+  align-items: center; /* flex-end flex-start*/
+}
+
+/* row reverse  => column  ==> */
+
+.flex-contraine > div {
+  background-color: brown;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5em;
+  width: 50px;
+  height: 50px;
+}

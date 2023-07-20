@@ -1,43 +1,16 @@
-body{
+body {
   background-color: black;
-  color: #fff;
 }
 
-img{
+img {
   position: absolute;
   top: 0;
   opacity: 0.6;
+  width: 800px;
+  transition: opacity 2s ease-in-out 0.9s, width 9s linear;
 }
 
-.contenedor{
-  overflow: auto;
-}
-
-.leftside{
-  float: none;
-  width: auto;
-}
-
-.texto{
-  position: absolute;
-  top: 0;
-  color: blueviolet;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-@media (min-width:480px) {
-  .leftside{
-    float: left;
-    width: 300px;
-  }
-
-  img{
-    width: 300px;
-  }
-  
-  .texto{
-    position: static;
-
-  }
-
+img:hover {
+  opacity: 0.5;
+  width: 1200px;
 }
